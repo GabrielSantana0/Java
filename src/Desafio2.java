@@ -4,11 +4,16 @@ public class Desafio2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String nome = "Jacqueline Oliveira";
-        String conta = "Corrente";
         int saldoInicial = 2500;
 
-        System.out.println("MENU");
+        System.out.println("******************************************");
+        System.out.println();
+        System.out.println("Nome cliente: Jacqueline Oliveira");
+        System.out.println("Tipo conta = Corrente");
+        System.out.println("Saldo Inicial = 2500");
+        System.out.println();
+        System.out.println("******************************************");
+        System.out.println("         MENU");
         System.out.println("1 - Consultar Saldos");
         System.out.println("2 - Receber valor");
         System.out.println("3 - Transferir valor");
