@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args) {
         System.out.println("Esse é o screen Match");
-        System.out.println("Filme: Top Gun: Maverick");
+        System.out.println("br.com.alura.screenmatch.modelos.Filme: Top Gun: Maverick");
 
         int yearOfRelease = 2022;
         System.out.println("Year Of Release: " + yearOfRelease);
