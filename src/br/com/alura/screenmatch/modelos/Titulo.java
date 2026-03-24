@@ -58,4 +58,8 @@ public class Titulo {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 
+    public String pegaMediaFormatada(){
+        return String.format("%.2f", pegaMedia());
+    }
+
 }
