@@ -10,17 +10,20 @@ public class Funcionario {
         this.nomeFuncionario = nomeFuncionario;
     }
 
-    public void  salarios(double salario1, double salario2, double salario3) {
+    public void  setSalarios(double salario1, double salario2, double salario3) {
         this.salario1 = salario1;
         this.salario2 = salario2;
         this.salario3 = salario3;
     }
+
 
     public void exibirInformacoes() {
         System.out.println("Nome do Funcionario: " + nomeFuncionario);
         System.out.println("Salario 1 ano: " + salario1);
         System.out.println("Salario 2 ano: " + salario2);
         System.out.println("Salario 3 ano: " + salario3);
+        System.out.println();
+        System.out.println("** Informações Salarios **");
         System.out.println("Menor Salario: "  + menorSalario());
         System.out.println("Maior Salario: " + maiorSalario());
         System.out.println("Medio Salario: " + medioSalario());
