@@ -31,9 +31,12 @@ public class Funcionario {
     
     public double menorSalario() {
         double menor = salario1;
+
         if (salario2 < menor) {
             menor = salario2;
-        } if (salario3 < menor) {
+        }
+
+        if (salario3 < menor) {
             menor = salario3;
         }
         return menor;
@@ -42,9 +45,12 @@ public class Funcionario {
 
     public double maiorSalario() {
         double maior = salario1;
+
         if (salario2 > maior) {
             maior = salario2;
-        } if ( salario3 > maior) {
+        }
+
+        if ( salario3 > maior) {
             maior = salario3;
         }
         return maior;
