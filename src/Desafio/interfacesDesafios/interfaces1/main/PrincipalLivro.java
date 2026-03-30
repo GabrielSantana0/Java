@@ -1,7 +1,4 @@
-package Desafio.interfacesDesafios.main;
-
-import Desafio.interfacesDesafios.Livro;
-import Desafio.interfacesDesafios.ProdutoFisicos;
+package Desafio.interfacesDesafios.interfaces1.main;
 
 public class PrincipalLivro {
     public static void main(String[] args) {

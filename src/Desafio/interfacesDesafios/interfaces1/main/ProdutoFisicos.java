@@ -1,6 +1,6 @@
-package Desafio.interfacesDesafios;
+package Desafio.interfacesDesafios.interfaces1.main;
 
-public class ProdutoFisicos implements Calculavel{
+public class ProdutoFisicos implements Calculavel {
     private String nome;
     private double preco;
     private double frete;
